@@ -15,8 +15,6 @@ This project demonstrates how to launch and configure a secure EC2 instance usin
 4. **Installed Apache** via `yum`, enabled the service, and deployed a custom `index.html`
 5. **Tested the live site** via browser using the public IP address
 
-## 🔗 Live Site or Result
-[View demonstration screenshot](./assets/ec2-demo.png)
 
 ## 📸 Screenshot
 
