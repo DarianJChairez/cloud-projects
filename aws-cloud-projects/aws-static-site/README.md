@@ -3,7 +3,6 @@
 This project showcases how to deploy a fully functional static website using AWS services. It leverages **Amazon S3** for hosting, **CloudFront** for content delivery, and **IAM policies** for secure access control.
 
 ## 🌐 Live Demo
-> *(If applicable, link to deployed site here)*  
-`https://your-cloudfront-distribution-id.cloudfront.net`  
+> https://jayce-static-site-demo.s3.us-east-2.amazonaws.com/index.html
 
 ## 📁 Project Structure
