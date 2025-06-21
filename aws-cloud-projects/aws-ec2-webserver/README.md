@@ -1,33 +1,35 @@
-# 🖥️ AWS EC2 Web Server Setup (Linux + IAM + Security Groups)
+# ☁️ EC2 Apache Web Server Deployment
 
-## 🚀 Overview
-This project demonstrates how to launch an Amazon EC2 instance, install a basic web server (Apache/Nginx), and apply secure access control using IAM roles and Security Groups.
+## Overview
+This project demonstrates how to launch and configure a secure EC2 instance using Amazon Linux 2 to host a live Apache web server. It showcases foundational cloud infrastructure skills, including SSH access, server provisioning, and custom HTML deployment. This setup simulates hosting a static website in the cloud and reinforces cloud networking, permissions, and Linux package management.
 
-## 🧱 Architecture
-- **EC2 (Amazon Linux 2)** instance hosted in AWS
-- **IAM Role** attached to EC2 for secure access to AWS services (if needed)
-- **Security Group** configured to allow HTTP (port 80) and SSH (port 22)
-- Optional: **User Data script** for automated web server setup at launch
+## Architecture
+- **Amazon EC2** for virtual server hosting and public web access
+- **Apache (httpd)** for serving a custom HTML page
+- **Security Groups & Key Pair** for SSH access and public HTTP permissions
 
-## ⚙️ Deployment Steps
-1. Launched a t2.micro EC2 instance in a public subnet
-2. Created a Security Group:
-   - Allowed inbound SSH (22) from my IP
-   - Allowed inbound HTTP (80) from anywhere (for web access)
-3. Attached an IAM role (optional) for secure access to S3 or other services
-4. Installed and tested Apache/Nginx web server
-5. Deployed a custom `index.html` page and accessed the public IP in a browser
+## Deployment Steps
+1. **Created EC2 instance** with Amazon Linux 2 and a new key pair (`Jayce.pem`)
+2. **Configured Security Group** to allow inbound SSH (port 22) and HTTP (port 80)
+3. **SSH’d into the instance** using PowerShell and secure `.pem` authentication
+4. **Installed Apache** via `yum`, enabled the service, and deployed a custom `index.html`
+5. **Tested the live site** via browser using the public IP address
 
-## 📸 Screenshots
-- EC2 instance running with public IP
-- Security Group inbound rules
-- Installed web server home page in browser
+## 🔗 Live Site or Result
+[View demonstration screenshot](./assets/ec2-demo.png)
 
-## 🧠 Key Learnings
-- How to securely launch and configure EC2 instances
-- Basics of Linux server provisioning
-- Role of IAM and Security Groups in AWS security best practices
+## 📸 Screenshot
 
----
+### Home Page or Primary View
+![Main Screenshot](./assets/ec2-demo.png)
 
-> ✨ This project builds confidence in launching and securing cloud compute resources with real-world relevance.
+## 🔍 Configuration Snapshots
+
+### Security Group Inbound Rules
+![Policy Screenshot](./assets/security-group-rules.png)
+
+### EC2 Instance Details
+![EC2 Instance Screenshot](./assets/ec2-instance-details.png)
+
+## Outcome
+This project provided hands-on experience provisioning a virtual machine in AWS and serving content over the internet using Apache. It solidified my understanding of SSH-based authentication, Linux system administration, EC2 networking (Security Groups), and basic web server hosting. I now have a solid foundation for deploying static content in cloud environments, and can confidently spin up future infrastructure-backed projects.
