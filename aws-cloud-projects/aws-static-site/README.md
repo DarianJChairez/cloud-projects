@@ -1,33 +1,42 @@
 # 🌐 AWS Static Website Hosting with CloudFront
+# 🌐 AWS Static Website Hosting with CloudFront
 
 ## 🚀 Overview
-This project demonstrates how to deploy a static website using **Amazon S3** with **CloudFront** as a performance and distribution layer. It covers static hosting, configuring public access, setting proper metadata for HTML rendering, and resolving common origin and path issues during CloudFront setup.
+This project showcases a simple static website hosted on **Amazon S3** and accelerated globally using **CloudFront**. It highlights the process of configuring public access, setting correct metadata, and troubleshooting AWS-specific deployment errors.
 
 ## 🧱 Architecture
-- **Amazon S3** for static site hosting and object storage  
-- **IAM** bucket policies for public read access  
-- **CloudFront** distribution with a **custom origin** pointing to the S3 website endpoint  
-  > (`jayce-static-site-demo.s3-website.us-east-2.amazonaws.com`)  
-- Optional CloudFront behaviors and error handling for improved UX
+- **Amazon S3** for object storage and static website hosting
+- **IAM Bucket Policy** for public read access
+- **CloudFront** with a **custom origin** pointing to the S3 static website endpoint
+- Responsive HTML/CSS design for clean presentation
 
 ## ⚙️ Deployment Steps
-1. Created and configured S3 bucket with static website hosting  
-2. Uploaded HTML/CSS assets and set metadata for `text/html` rendering  
-3. Enabled public access via bucket policy  
-4. Created CloudFront distribution using:
-   - **Custom origin**
-   - **Origin Domain Name**: your website endpoint
-   - Left **Origin Path** blank for root access  
-5. Deployed and validated website via CloudFront distribution URL
+1. Created an S3 bucket and enabled static website hosting
+2. Uploaded `index.html` and associated assets with proper `Content-Type` metadata
+3. Applied a bucket policy to allow public access
+4. Configured a CloudFront distribution:
+   - Chose **Custom Origin**
+   - Used S3 static site endpoint: `jayce-static-site-demo.s3-website.us-east-2.amazonaws.com`
+   - Left **Origin Path** blank
+5. Tested and validated website availability via CloudFront distribution URL
 
-## 📸 Preview
-![Screenshot](assets/site-preview.png)
+## 📸 Screenshots
 
-## 🧠 What I Learned
-- The difference between S3 REST endpoints and static website endpoints
-- How to troubleshoot CloudFront origin mismatches
-- How public access and metadata affect static website rendering
+### Live Site via CloudFront
+![Live site](live-site.png)
+
+### S3 Bucket Policy Configuration
+![Bucket policy](assets/bucket-policy.png)
+
+### Metadata Panel in S3 for HTML Content
+![Metadata panel](assets/metadata-panel.png)
+
+## 🧠 Key Learnings
+- Difference between S3 **website endpoints** and **REST endpoints**
+- How CloudFront handles custom origins and origin paths
+- Importance of correct MIME types for HTML rendering
+- How to troubleshoot AWS deployment errors like invalid `Origin DomainName`
 
 ---
 
-> Built to demonstrate real-world AWS fundamentals in a simple, clean project.  
+> ✨ This project is part of my AWS Cloud Portfolio and demonstrates foundational cloud deployment skills with real-world relevance.
