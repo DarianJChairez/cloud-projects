@@ -34,7 +34,6 @@ This project showcases a simple static website hosted on **Amazon S3** and globa
 ![CloudFront config](assets/cloudfront-settings.png)
 
 ## 🧠 Key Learnings
-- Difference between S3 **website endpoints** and **REST-style endpoints**
 - How CloudFront handles custom origins and origin paths
 - Fixing the `Origin DomainName` error by switching to **Custom Origin**
 - Importance of correct MIME types to render HTML properly
