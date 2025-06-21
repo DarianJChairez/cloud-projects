@@ -18,11 +18,8 @@ This project showcases how to deploy a static website using **Amazon S3**, inclu
 ## 🔗 Live Site
 [Visit the deployed site](https://jayce-static-site-demo.s3.us-east-2.amazonaws.com/index.html)
 
-## 📸 Screenshot
-![Static Site Screenshot](./live-site.png)
-
 ### Home Page
-![Static Site Screenshot](./Live-Site.png)
+![Static Site Screenshot](./live-site.png)
 
 ## 🔍 Configuration Snapshots
 
