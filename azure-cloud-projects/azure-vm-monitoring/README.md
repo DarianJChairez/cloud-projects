@@ -20,14 +20,8 @@ This project provisions a secure Ubuntu 24.04 virtual machine on Microsoft Azure
 6. Simulated CPU stress with `stress` to trigger and verify alerts
 7. Validated alert notification via Azure Portal and email
 
-## 🔗 Live Site or Result
-[View the deployed site](http://<your-public-ip>)  
-_or_  
-[View demonstration screenshot](./assets/demo.png)
 
-## 📸 Screenshot
-
-### Home Page or Primary View
+### Primary View
 ![Main Screenshot](./assets/apache-default.png)
 
 ## 🔍 Configuration Snapshots
