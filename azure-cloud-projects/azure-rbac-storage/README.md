@@ -16,12 +16,9 @@ This project demonstrates how to securely configure Azure Blob Storage using Mic
    - Able to list and view blobs via Azure Portal
    - Blocked from uploading or deleting due to read-only role
 
-## 🔗 Live Site or Result
-[View demonstration screenshot](./assets/rbac-test-read-error.png)
-
 ## 📸 Screenshot
 
-### Home Page or Primary View  
+### Container View  
 ![Main Screenshot](./assets/blob-container-overview.png)
 
 ## 🔍 Configuration Snapshots
