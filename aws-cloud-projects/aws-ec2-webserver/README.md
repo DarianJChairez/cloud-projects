@@ -1,4 +1,4 @@
-# ☁️ EC2 Apache Web Server Deployment
+# EC2 Apache Web Server Deployment
 
 ## Overview
 This project demonstrates how to launch and configure a secure EC2 instance using Amazon Linux 2 to host a live Apache web server. It showcases foundational cloud infrastructure skills, including SSH access, server provisioning, and custom HTML deployment. This setup simulates hosting a static website in the cloud and reinforces cloud networking, permissions, and Linux package management.
@@ -16,12 +16,12 @@ This project demonstrates how to launch and configure a secure EC2 instance usin
 5. **Tested the live site** via browser using the public IP address
 
 
-## 📸 Screenshot
+## Screenshot
 
 ### Home Page or Primary View
 ![Main Screenshot](./assets/ec2-demo.png)
 
-## 🔍 Configuration Snapshots
+## Configuration Snapshots
 
 ### Security Group Inbound Rules
 ![Policy Screenshot](./assets/security-group-rules.png)
