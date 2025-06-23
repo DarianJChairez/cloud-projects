@@ -21,7 +21,7 @@ This project provisions a secure Ubuntu 24.04 virtual machine on Microsoft Azure
 7. Validated alert notification via Azure Portal and email
 
 
-### Apache2 View
+### Apache2 Download View
 ![Main Screenshot](./assets/apache-default.png)
 
 ## 🔍 Configuration Snapshots
