@@ -1,4 +1,4 @@
-# ☁️ Azure Storage + RBAC Access Control
+# Azure Storage + RBAC Access Control
 
 ## Overview
 This project demonstrates how to securely configure Azure Blob Storage using Microsoft Entra ID and role-based access control (RBAC). A scoped test user is granted read-only access to a private container, simulating real-world identity governance and least-privilege enforcement in the cloud.
@@ -16,12 +16,12 @@ This project demonstrates how to securely configure Azure Blob Storage using Mic
    - Able to list and view blobs via Azure Portal
    - Blocked from uploading or deleting due to read-only role
 
-## 📸 Screenshot
+## Screenshot
 
 ### Container View  
 ![Main Screenshot](./assets/blob-container-overview.png)
 
-## 🔍 Configuration Snapshots
+## Configuration Snapshots
 
 ### Microsoft Entra ID Test User  
 ![Azure Screenshot](./assets/blob-reader-user.png)
