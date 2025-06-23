@@ -1,10 +1,10 @@
-# ☁️ Cloud Projects Portfolio
+# Cloud Projects Portfolio
 
 Welcome to my cloud projects portfolio—this repository showcases hands-on implementations across AWS and Azure. Each folder contains a focused deployment with documentation, live results (where applicable), and insights into key cloud concepts.
 
 ---
 
-## 🔶 AWS Projects
+## AWS Projects
 
 ### [`aws-static-site`](./aws-cloud-projects/aws-static-site)
 Deploys a static website using Amazon S3, with optional CloudFront integration and IAM-based public access control.
@@ -14,7 +14,7 @@ Launches and configures a Linux EC2 instance, installs a web server (Apache/Ngin
 
 ---
 
-## 🔷 Azure Projects
+## Azure Projects
 
 ### [`azure-vm-monitoring`](./azure-cloud-projects/azure-vm-monitoring)
 Deploys an Azure Virtual Machine with app installation and real-time monitoring using Azure Monitor and custom alert rules.
