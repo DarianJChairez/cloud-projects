@@ -1,4 +1,4 @@
-# ☁️ Azure VM Monitoring & Alerting
+# Azure VM Monitoring & Alerting
 
 ## Overview
 This project provisions a secure Ubuntu 24.04 virtual machine on Microsoft Azure, installs a web server (Apache2), and configures Azure Monitor to generate real-time alerts for CPU and memory thresholds. It demonstrates infrastructure deployment, observability configuration, and operational validation through live system stress testing. A great showcase of cloud monitoring and incident response readiness.
@@ -24,7 +24,7 @@ This project provisions a secure Ubuntu 24.04 virtual machine on Microsoft Azure
 ### Apache2 Download View
 ![Main Screenshot](./assets/apache-default.png)
 
-## 🔍 Configuration Snapshots
+## Configuration Snapshots
 
 ### VM Overview
 ![VM Overview Screenshot](./assets/vm-overview.png)
