@@ -1,9 +1,9 @@
-# 🌐 AWS Static Website Hosting with CloudFront
+# AWS Static Website Hosting with CloudFront
 
-## 🚀 Overview
+## Overview
 This project showcases a simple static website hosted on **Amazon S3** and globally accelerated with **CloudFront**. It highlights how to set up static hosting, configure public access, troubleshoot origin errors, and fine-tune metadata for proper HTML rendering.
 
-## 🧱 Architecture
+## Architecture
 - **Amazon S3** for static website hosting and object storage
 - **IAM Bucket Policy** for public access
 - **CloudFront** with a **custom origin** pointing to the S3 static website endpoint
@@ -21,23 +21,23 @@ This project showcases a simple static website hosted on **Amazon S3** and globa
 
 ## 📸 Screenshots
 
-### ✅ Live Site via CloudFront
+### Live Site via CloudFront
 ![Live site](live-site.png)
 
-### 🔐 S3 Bucket Policy Configuration
+### S3 Bucket Policy Configuration
 ![Bucket policy](assets/bucket-policy.png)
 
-### 🧾 S3 Metadata Panel for HTML Rendering
+### S3 Metadata Panel for HTML Rendering
 ![Metadata panel](assets/metadata-panel.png)
 
-### 🌍 CloudFront Distribution Settings
+### CloudFront Distribution Settings
 ![CloudFront config](assets/cloudfront-settings.png)
 
-## 🧠 Key Learnings
+## Key Learnings
 - How CloudFront handles custom origins and origin paths
 - Fixing the `Origin DomainName` error by switching to **Custom Origin**
 - Importance of correct MIME types to render HTML properly
 
 ---
 
-> ✨ A foundational project demonstrating real-world AWS cloud hosting, deployment troubleshooting, and static delivery optimization.
+> A foundational project demonstrating real-world AWS cloud hosting, deployment troubleshooting, and static delivery optimization.
