@@ -1,6 +1,6 @@
 # Cloud Projects Portfolio
 
-Welcome to my cloud projects portfolio—this repository showcases hands-on implementations across AWS and Azure. Each folder contains a focused deployment with documentation, live results (where applicable), and insights into key cloud concepts.
+Welcome to my cloud projects portfolio—this repository showcases hands-on implementations across AWS, Azure, and Terraform. Each folder contains a focused deployment with documentation, live results (where applicable), and insights into key cloud concepts.
 
 ---
 
