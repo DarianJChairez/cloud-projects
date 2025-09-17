@@ -27,11 +27,11 @@ Sets up an Azure Resource Group and Storage Account, then applies RBAC and Azure
 ## Terraform Projects
 
 ### [`terraform-cloud-projects`](./terraform-cloud-projects)  
-Contains modular Infrastructure as Code (IaC) labs using Terraform CLI and AzureRM provider.  
+Contains modular Infrastructure as Code (IaC) labs using Terraform CLI and the AzureRM provider.  
 Current lab provisions:
 
 - An Azure Resource Group (`rg-terraform-lab`)
 - A Standard LRS Storage Account (`tfstoragelabjayce`)
 
 All resources are deployed using `.tf` files and verified in the Azure Portal.  
-Built to reinforce AZ-104 and Terraform Associate certifications through hands-on, cost-aware automation.
+This lab reinforces AZ-104 and Terraform Associate certifications through hands-on, cost-aware automation.
