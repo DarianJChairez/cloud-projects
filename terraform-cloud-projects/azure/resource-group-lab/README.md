@@ -1,61 +1,31 @@
-# Azure Resource Group Deployment with Terraform
+# Resource Group + Storage Account Lab
 
 ## Overview
 
-This lab demonstrates how to deploy an Azure Resource Group using Terraform CLI and modular `.tf` files. It reinforces Infrastructure as Code (IaC) principles, provider configuration, and CLI-based provisioning workflows aligned with AZ-104 and Terraform Associate certifications. The project simulates real-world cloud automation and sets the foundation for scalable Azure infrastructure.
+This Terraform lab provisions core Azure infrastructure using declarative `.tf` files and CLI-based workflows. It deploys a Resource Group and a Standard LRS Storage Account to the East US region, reinforcing Infrastructure as Code (IaC) principles and hands-on alignment with AZ-104 and Terraform Associate certifications.
 
 ## Architecture
 
-- Azure Resource Group for organizing cloud resources  
-- Terraform CLI for declarative infrastructure deployment  
-- Modular `.tf` files for provider, variables, and outputs  
-- AzureRM Provider authenticated via Azure CLI and subscription ID  
+- **Azure Resource Group** for organizing cloud resources
+- **Azure Storage Account** (Standard LRS) for blob, file, and queue services
+- Terraform CLI for provisioning and state management
+- Modular `.tf` files for clean separation of logic and configuration
 
 ## Deployment Steps
 
-1. Configured `provider.tf`  
-   - Set AzureRM provider version and included `features {}` block  
-   - Inserted subscription ID retrieved via `az account show --query id -o tsv`
-
-2. Declared variables in `variables.tf`  
-   - `rg_name`: Resource Group name  
-   - `location`: Azure region (e.g., East US)
-
-3. Defined resource block in `main.tf`  
-   - Created `azurerm_resource_group` using input variables
-
-4. Initialized Terraform  
-   ```
-   terraform init
-   ```
-
-5. Applied configuration  
-   ```
-   terraform apply -auto-approve
-   ```
-
-6. Verified deployment  
-   - Confirmed Resource Group creation in Azure Portal
-
-## Screenshots (optional)
-
-- Terraform apply output  
-- Azure Portal view of deployed Resource Group  
-
-## Configuration Snapshots (optional)
-
-- `provider.tf` with subscription ID  
-- `variables.tf` with default values  
-- `main.tf` resource block  
+1. Defined input variables in `variables.tf`
+2. Provisioned a resource group using `azurerm_resource_group`
+3. Created a storage account using `azurerm_storage_account`
+4. Verified deployment in Azure Portal
 
 ## Outcome
 
-This lab provided hands-on experience deploying infrastructure in Azure using Terraform. It solidified understanding of IaC workflows, Azure provider configuration, CLI fluency, and modular file design. The result is a reusable template for future Azure deployments and a foundation for expanding into more complex Terraform projects such as VNets, NSGs, and VM provisioning.
+Successfully deployed and validated core Azure infrastructure using Terraform.  
+This lab demonstrates cost-aware provisioning, variable abstraction, and clean IaC structure—ideal for portfolio visibility and certification reinforcement.
 
-## Skills Reinforced
+## Tools Used
 
-- Infrastructure as Code (IaC)  
-- AzureRM provider setup  
-- Terraform CLI commands  
-- Modular `.tf` file structure  
-- Cloud resource provisioning via code
+- Microsoft Azure (Resource Groups, Storage Accounts)  
+- Terraform CLI  
+- GitHub for version control  
+- Windows 11 (local dev environment)
