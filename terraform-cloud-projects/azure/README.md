@@ -2,24 +2,13 @@
 
 ## Overview
 
-This folder contains hands-on Terraform labs focused on deploying infrastructure in Microsoft Azure. Each lab demonstrates Infrastructure as Code (IaC) principles, CLI fluency, and modular `.tf` file design aligned with AZ-104 and Terraform Associate certifications.
+This folder contains Terraform-based infrastructure labs focused on deploying resources in Microsoft Azure. Each lab demonstrates practical Infrastructure as Code (IaC) workflows using the AzureRM provider and Terraform CLI. These projects are designed to reinforce certification knowledge, showcase automation skills, and build reusable templates for real-world cloud environments.
 
 ## Labs Included
 
-- **Resource Group Lab**  
-  Deploys an Azure Resource Group using Terraform CLI and modular configuration files. Reinforces provider setup, variable abstraction, and CLI-based provisioning.
+- **Resource Group + Storage Account Lab**  
+  Provisions an Azure Resource Group and a Standard LRS Storage Account using modular `.tf` files and CLI-based deployment.
 
-## Purpose
+---
 
-These labs are designed to:
-- Reinforce certification knowledge through real-world deployment
-- Showcase Terraform automation in Azure environments
-- Build reusable templates for scalable cloud infrastructure
-
-## Skills Reinforced
-
-- AzureRM provider configuration  
-- Terraform CLI workflows  
-- Modular `.tf` file structure  
-- Cloud resource provisioning via code  
-- Git-based version control and documentation
+Each lab is scoped for clarity, cost-awareness, and hands-on alignment with AZ-104 and Terraform Associate certifications.
