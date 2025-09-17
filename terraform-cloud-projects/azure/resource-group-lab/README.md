@@ -6,17 +6,25 @@ This Terraform lab provisions core Azure infrastructure using declarative `.tf` 
 
 ## Architecture
 
-- **Azure Resource Group** for organizing cloud resources
-- **Azure Storage Account** (Standard LRS) for blob, file, and queue services
-- Terraform CLI for provisioning and state management
+- **Azure Resource Group** for organizing cloud resources  
+- **Azure Storage Account** (Standard LRS) for blob, file, and queue services  
+- Terraform CLI for provisioning and state management  
 - Modular `.tf` files for clean separation of logic and configuration
 
 ## Deployment Steps
 
-1. Defined input variables in `variables.tf`
-2. Provisioned a resource group using `azurerm_resource_group`
-3. Created a storage account using `azurerm_storage_account`
+1. Defined input variables in `variables.tf`  
+2. Provisioned a resource group using `azurerm_resource_group`  
+3. Created a storage account using `azurerm_storage_account`  
 4. Verified deployment in Azure Portal
+
+## Configuration Snapshots
+
+### Resource Group in Azure Portal  
+![Resource Group Screenshot](./assets/resource-group.png)
+
+### Storage Account Overview  
+![Storage Account Screenshot](./assets/storage-account.png)
 
 ## Outcome
 
