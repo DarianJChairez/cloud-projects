@@ -20,11 +20,7 @@ This Terraform lab provisions core Azure infrastructure using declarative `.tf` 
 
 ## Configuration Snapshots
 
-### Resource Group in Azure Portal  
-![Resource Group Screenshot](./assets/resource-group.png)
-
-### Storage Account Overview  
-![Storage Account Screenshot](./assets/storage-account.png)
+![Resource Group Screenshot](./assets/deployment-confirmation.png)
 
 ## Outcome
 
