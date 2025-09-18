@@ -18,7 +18,7 @@ This Terraform lab provisions core Azure infrastructure using declarative `.tf` 
 3. Created a storage account using `azurerm_storage_account`  
 4. Verified deployment in Azure Portal
 
-## Configuration Snapshots
+## Configuration Snapshot
 
 ![Resource Group Screenshot](./assets/deployment-confirmation.png)
 
