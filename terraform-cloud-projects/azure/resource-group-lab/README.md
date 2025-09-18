@@ -20,7 +20,9 @@ This Terraform lab provisions core Azure infrastructure using declarative `.tf` 
 
 ## Configuration Snapshot
 
-![Resource Group Screenshot](./assets/deployment-confirmation.png)
+### Deployment Confirmation  
+Screenshot showing `rg-terraform-lab` and `tfstoragelabjayce` successfully deployed in Azure Portal.  
+![Deployment Screenshot](./assets/deployment-confirmation.png)
 
 ## Outcome
 
