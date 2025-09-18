@@ -1,26 +1,24 @@
-# Azure Resource Group + Storage Account Lab
+# Terraform Cloud Projects
 
 ## Overview
 
-This Terraform lab provisions a basic Azure infrastructure setup using declarative `.tf` files and CLI-based workflows. It includes:
+This folder contains hands-on Infrastructure as Code (IaC) labs built with Terraform CLI. Each project demonstrates modular `.tf` file design, provider configuration, and real-world provisioning workflows across cloud platforms. These labs are designed to reinforce certification knowledge, showcase automation skills, and build reusable templates for scalable infrastructure.
 
-- An Azure Resource Group (`rg-terraform-lab`)
-- A Standard LRS Storage Account (`tfstoragelabjayce`)
+## Labs Included
 
-All resources are deployed to the `East US` region and verified in the Azure Portal.
+- **Azure: Resource Group + Storage Account Lab**  
+  Provisions a resource group and a Standard LRS storage account using the AzureRM provider.
 
 ## Purpose
 
-This lab reinforces:
+- Practice Terraform CLI workflows and IaC principles  
+- Reinforce cert-aligned skills (Terraform Associate, AZ-104, AWS CCP)  
+- Build modular, reusable infrastructure templates  
+- Document real-world deployments for portfolio visibility
 
-- Terraform CLI fluency and AzureRM provider setup
-- Variable abstraction and modular `.tf` file design
-- Cost-aware provisioning of core Azure services
-- Hands-on alignment with AZ-104 and Terraform Associate certifications
+## Tools Used
 
-## Deployment Steps
-
-```bash
-terraform init
-terraform plan
-terraform apply
+- Terraform CLI  
+- GitHub for version control  
+- Cloud providers: Microsoft Azure (current), AWS/GCP (future)  
+- Windows 11 (local dev environment)
